@@ -8,5 +8,6 @@
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_make_offer_test">MakeOfferTest</string>
     <string name="title_activity_edit_profile_test">EditProfileTest</string>
+    <string name="title_activity_cancel_page">CancelPage</string>
 
 </resources>

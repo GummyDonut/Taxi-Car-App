@@ -1,3 +1,7 @@
+<!-- 
+MakeOfferTest.Java
+ -->
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -26,6 +30,7 @@
         android:layout_below="@+id/textView1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="138dp"
-        android:text="Cancel" />
+        android:onClick="goToCancel"
+        android:text="Cancel your offer" />
 
 </RelativeLayout>

@@ -1,9 +1,11 @@
 package com.example.taxiapp;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 public class MakeOfferTest extends Activity {
 
@@ -31,4 +33,11 @@ public class MakeOfferTest extends Activity {
 		}
 		return super.onOptionsItemSelected(item);
 	}
+	//*********************************Intent Send Start
+    public void goToCancel(View view) {
+    	Intent cancelIntent = new Intent(this, CancelPage.class);
+    	startActivity(cancelIntent);
+    }
+	//**********************************Intent Send End
+	
 }
